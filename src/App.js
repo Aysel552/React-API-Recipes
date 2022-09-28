@@ -54,7 +54,7 @@ function App() {
     {/* Adding icon to the button */}
     <div className="container">
     <button className='btn'>
-      <img src="https://img.icons8.com/color/48/000000/fry.png" className="icons"/>
+      <img src="https://img.icons8.com/color/48/000000/fry.png" alt='' className="icons"/>
     </button>
     </div>
 
