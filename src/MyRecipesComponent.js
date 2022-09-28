@@ -10,7 +10,7 @@ function MyRecipesComponent({label, image,calories, ingredients}){
             <img src={image} className="recipeImage" alt="Recipe"/>
             </div>
             <div className='container'>
-            <p>{calories.toFixed()} calories</p>
+            <p className='calories'>{calories.toFixed()} calories</p>
             </div>
             <div className="container">
             <ul className="list">

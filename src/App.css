@@ -84,3 +84,44 @@ li:hover{
   border-radius: 10px;
   border: 1px solid green;
 }
+
+.calories{
+  font-weight: bold;
+}
+
+
+/* Mobile version */
+
+
+@media all and (max-width: 500px) {
+  .search{
+    width: 80%;
+    padding: 12px 24px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575756;
+    margin-right: 65px;
+    margin-left: 16px;
+    box-shadow: inset 0px 0px 0px 4px #ddd6e8;
+  }
+
+  .recipeImage{
+    width: 70%;
+  }
+
+  .icon{
+    width: 13px;
+    height: 13px;
+  }
+
+  li{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.recipeName{
+  font-size: 17px;
+}
+}
